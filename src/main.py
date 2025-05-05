@@ -51,7 +51,7 @@ publicDataAPI = PublicData.PublicAPI(flag=flag)
 # tradePairs
 tradePairs = ["BTC-USDT"]
 # 更新basicInstrumentInfo
-# updateBasicInstrumentInfo(publicDataAPI)
+updateBasicInstrumentInfo(publicDataAPI)
 # basicInstrumentInfo path ->
 basicInstInfoDirPath = "./data/basicInstrumentInfo/"
 
